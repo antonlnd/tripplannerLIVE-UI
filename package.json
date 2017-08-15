@@ -1,16 +1,25 @@
 {
   "name": "tripplanner",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "start:dev": "webpack -w & nodemon server/app.js",
     "start": "npm run start:dev"
   },
   "license": "MIT",
   "dependencies": {
+    "ajax": "0.0.4",
     "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
     "bootstrap": "3.3.5",
-    "mapbox-gl": "^0.39.1"
+    "es6-promise": "^4.1.1",
+    "express": "^4.15.4",
+    "isomorphic-fetch": "^2.2.1",
+    "mapbox-gl": "^0.39.1",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7",
+    "pg": "^7.1.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.5.0"
   },
   "devDependencies": {
     "css-loader": "^0.28.4",
@@ -21,5 +30,17 @@
     "sass-loader": "^6.0.6",
     "url-loader": "^0.5.9",
     "webpack": "^3.5.3"
-  }
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonlnd/tripplannerLIVE-UI.git"
+  },
+  "keywords": [],
+  "author": "Claud D. Park <posquit0.bj@gmail.com> (http://www.posquit0.com)",
+  "bugs": {
+    "url": "https://github.com/antonlnd/tripplannerLIVE-UI/issues"
+  },
+  "homepage": "https://github.com/antonlnd/tripplannerLIVE-UI#readme",
+  "description": ""
 }
